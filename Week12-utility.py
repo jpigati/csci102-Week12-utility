@@ -33,3 +33,9 @@ def Intersection(lista, listb):
         if i in listb:
             final_list.append(i)
     return final_list
+def NotIn(lista, listb):
+    final_list = []
+    for i in lista:
+        if i not in listb:
+            final_list.append(i)
+    return final_list
