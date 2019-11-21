@@ -27,3 +27,9 @@ def Union(lista, listb):
         if i not in final_list:
             final_list.append(i)
     return final_list
+def Intersection(lista, listb):
+    final_list = []
+    for i in lista:
+        if i in listb:
+            final_list.append(i)
+    return final_list
